@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Anek+Gujarati&family=Hanuman&family=Kodchasan:wght@300&display=swap');
+
+* {
+    font-family: 'Akshar', sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #B7B1B3;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 34px;
+    color: #eeeee4;
+}
+
+.header1 {
+    font-weight: 600;
+    font-size: 34px;
+    color: black;
+}
+
+#forget-password:hover {
+    text-decoration: underline;
+}
+
+input {
+    width: 75%;
+    height: 47px;
+    margin-top: 2px;
+    border-radius: 10PX;
+    border: 1px solid #cacaca;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    font-size: 16.5px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18.5px;
+    margin: 110px;
+    font-weight: 600;
+}
+
+button {
+    height: 39px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 12PX;
+    border: 1px solid red;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+#sign-up,#LOG-IN {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#sign-up:hover,#LOG-IN:hover {
+    border: 2px solid darksalmon;
+    padding: 0 35px;
+    border-color: white;
+    border-radius: 11PX;
+    background-color: #551A8B;
+    color: white;
+    font-weight: 500;
+
+}
+
+.log-but {
+    width: 40%;
+}
+
+.container {
+    position: relative;
+}
+
+.form-container {
+    width: 30%;
+    box-sizing: border-box;
+    transform: translate(110%, 42%);
+    position: absolute;
+    top: 0;
+    color: black;
+    text-align: center;
+}
+
+.form-container2 {
+    width: 35%;
+    box-sizing: border-box;
+    transform: translate(86.5%, 15%);
+    position: absolute;
+    top: 0;
+    color: black;
+    text-align: center;
+    background-color: white;
+    height: 82vh;
+    padding: 35px;
+    border: 1.5px solid red;
+    border-radius: 2%;
+}
+
+.container img {
+    height: 70vh;
+    width: 35%;
+    border-radius: 7%;
+    padding: 0 15px;
+}
+
+
+img {
+    transform: translate(85%, 20%);
+
+}
+
+label {
+    font-size: 18px;
+}
